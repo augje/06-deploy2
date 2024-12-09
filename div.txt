@@ -1,0 +1,15 @@
+.\flask_env\Scripts\activate
+.\flask_env\Scripts\activate : File C:\Users\Audun Gjevre\OneDrive - Innlandet fylkeskommun
+e\00 Lhmrvgs\04 2ITK\01 MP1\06 deploy2\flask_env\Scripts\Activate.ps1 cannot be loaded beca
+use running scripts is disabled on this system. For more information, see about_Execution_P
+olicies at https:/go.microsoft.com/fwlink/?LinkID=135170.
+At line:1 char:1
++ .\flask_env\Scripts\activate
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : SecurityError: (:) [], PSSecurityException
+    + FullyQualifiedErrorId : UnauthorizedAccess
+
+
+https://stackoverflow.com/questions/56199111/visual-studio-code-cmd-error-cannot-be-loaded-because-running-scripts-is-disabl
+
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser  
